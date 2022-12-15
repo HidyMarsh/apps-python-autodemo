@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Emergency Battery Failesafe Landing Points</title>
+  <meta name="description" content="Apache sample html">
+  <meta name="author" content="SiteUser">
+
+</head>
+
+<body>
+
+        <h3>The Emergency Battery Failesafe Landing Points</h3>
+
+  <form action="/emgl/write_point/" method="get" class="form-example">
+  <div class="form-example">
+    <label for="latitude">Enter landing Latitude: </label>
+    <input type="text" name="LAT" id="lat" required>
+  </div>
+  <div class="form-example">
+    <label for="longitude">Enter Landing Longitude: </label>
+    <input type="text" name="LNG" id="lng" required>
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Regist Point">
+  </div>
+</form>
+
+<div style="margin: 30px 0px;">
+
+Registered EMGL Points View:
+<p> Latitude | Longitude </p>
+<textarea rows="10" cols="30" >
+Latitude | Longitude
+{{landing_points}}
+</textarea>
+
+</div>
+
+<form action="/emgl/do_emgl" method="get">
+  <div class="form-example">
+    <input type="submit" value="EMGL DEMO Start">
+  </div>
+</form>
+
+
+</body>
