@@ -53,4 +53,5 @@ WEBブラウザーで (http://localhost:8080/emgl/regist) へ接続し下部の�
 予め登録した着地点を計算しバッテリーフェイルが発生した際に一番近距離の場所へ移動し着地を行います。
 
 ### DEMOビデオ
+若干Videoデータが大きいので画像をクリックするとダウンロードできるページに移動しますのでローカルPCにダウンロードして御覧ください。
 [![Application Demo](https://github.com/HidyMarsh/apps-python-autodemo/blob/master/img/apps-start-img.png)](https://github.com/HidyMarsh/apps-python-autodemo/blob/master/video/apps-demo-video.mp4)
