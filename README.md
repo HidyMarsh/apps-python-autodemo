@@ -51,3 +51,6 @@ DMEOボタンは下部に２つ用意しているがFailSafeが働くタイミ�
 WEBブラウザーで (http://localhost:8080/emgl/regist) へ接続し下部のデモボタンを押して開始
 してください。
 予め登録した着地点を計算しバッテリーフェイルが発生した際に一番近距離の場所へ移動し着地を行います。
+
+### DEMOビデオ
+[![Application Demo](https://github.com/HidyMarsh/apps-python-autodemo/blob/master/img/apps-start-img.png)](https://github.com/HidyMarsh/apps-python-autodemo/blob/master/video/apps-demo-video.mp4)
