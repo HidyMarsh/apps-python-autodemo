@@ -9,8 +9,8 @@ import os,sys,time
 def static_read(filename):
     return static_file(filename,root='./static/')
 
-@route('/emgl/do_emgl',method='GET')
-def emgl_call():
+@route('/emgl/do_emgl/<causetime>',method='GET')
+def emgl_call(causetime):
     vehicle = connect('tcp:127.0.0.1:5763',wait_ready=True, timeout=30)
     vehicle.parameters['SIM_BATT_VOLTAGE']= 11.1
 
@@ -30,9 +30,10 @@ def emgl_call():
     # Set mode to AUTO to start mission
     vehicle.mode = VehicleMode("AUTO")
 
-    time.sleep(20)
+    time.sleep(int(causetime))
     vehicle.parameters['SIM_BATT_VOLTAGE']= 9.7
     return "Now Battery Fail State" 
+
 
 @route('/emgl/regist',method='GET')
 def regist_form():
