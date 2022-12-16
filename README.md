@@ -6,6 +6,8 @@ WEBベースの緊急着陸地点を登録＆デモアプリとなっている�
 尚、デモを開始するためのdrone-kit python コードを含んでおり、Mission Planner＆SITL＆デモアプリが動作する。
 アプリアクセスはブラウザで行う。
 
+![App WEB TOP](https://github.com/HidyMarsh/apps-python-autodemo/blob/master/img/appserv.png)
+
 ### インストールに関して：
 現実的にFlight Controllerにこのアプリを入れて使うことは無いが導入するとしたらコンパニオンコンピュターと考えています。
 今回は修了のデモということで環境が限られているのでSITLと同じ環境Ubuntuへ導入
