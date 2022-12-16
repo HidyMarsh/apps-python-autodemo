@@ -20,7 +20,7 @@ WEBベースの緊急着陸地点を登録＆デモアプリとなっている�
 > pip  install  bottle
 # dronekit-python
 講義資料の通り
-git clone git@github.com:dronekit/dronekit-python.git
+(git clone git@github.com:dronekit/dronekit-python.gita)
 
 ### プログラム実行方法：
 任意のフォルダーでcloneしたあとにフォルダーへ移動。下記を実行する。
@@ -31,7 +31,7 @@ locate.xml  緊急着陸地点の緯度・経度を保存するXMLファィル
 
 ### アプリ操作方法：
 この後にブラウザーアクセスで緊急着陸地点とデモの自動実行が行える。
-アプリアクセスは"http://localhost:8080/emgl/regist"で行う。
+アプリアクセスは(http://localhost:8080/emgl/regist)で行う。
 
 緊急着陸地点は経度、緯度共にint整数値で入力すること、通常は浮動小数点の値だが
 浮動小数点を外して入力するだけでOK
@@ -40,12 +40,12 @@ DMEOボタンは下部に２つ用意しているがFailSafeが働くタイミ�
 ２０秒と５０秒で用意している。
 
 ただし任意の値にしたいなら下記のURLでアクセスしてもOKです。
-"http://localhost:8080/emgl/do_emgl/整数値"
-例："http://localhost:8080/emgl/do_emgl/40"
+(http://localhost:8080/emgl/do_emgl/整数値)
+例：(http://localhost:8080/emgl/do_emgl/40)
 
 ### このアプリを使う構成の想定手順とデモ手順
 最初にMPを起動、SITLを起動します。一番最後に本アプリをプログラム実行します。
 次にフライプランをMPで作成もしくは読み込みをします。書き込み済んだらデモの準備はOKです。
-WEBブラウザーで"http://localhost:8080/emgl/regist"へ接続し下部のデモボタンを押して開始
+WEBブラウザーで(http://localhost:8080/emgl/regist)へ接続し下部のデモボタンを押して開始
 してください。
 予め登録した着地点を計算しバッテリーフェイルが発生した際に一番近距離の場所へ移動し着地を行います。
