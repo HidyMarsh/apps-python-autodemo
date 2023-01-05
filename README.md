@@ -22,7 +22,7 @@ WEBベースの緊急着陸地点を登録＆デモアプリとなっている�
 > pip  install  bottle
 # dronekit-python
 講義資料の通り<br>
-(git clone git@github.com:dronekit/dronekit-python.gita)
+(git clone git@github.com:dronekit/dronekit-python.git)
 
 ### プログラム実行方法：
 任意のフォルダーでcloneしたあとにフォルダーへ移動。下記を実行する。
